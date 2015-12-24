@@ -85,6 +85,7 @@ static const void *ClickTimes = &ClickTimes;
 {
     return [objc_getAssociatedObject(self, ClickTimes) intValue];
 }
+
 -(void)setClickTimes:(NSInteger)clickTimes
 {
     NSNumber *number= [[NSNumber alloc] initWithInteger:clickTimes];
